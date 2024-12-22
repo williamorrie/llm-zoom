@@ -1,0 +1,15 @@
+[project]
+name = "llm-zoom"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "elasticsearch>=8.17.0",
+    "ipywidgets>=8.1.5",
+    "notebook==7.1.2",
+    "openai>=1.57.4",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.0",
+    "tqdm>=4.67.1",
+]
